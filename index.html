@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+
+    <!--Link font Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--logo-->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/logo-web//apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/logo-web//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/logo-web//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/logo-web//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/logo-web//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/logo-web//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/logo-web//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/logo-web//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo-web//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/logo-web//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo-web//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/logo-web//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo-web//favicon-16x16.png">
+    <link rel="manifest" href="assets/img/logo-web//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/logo-web//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>CỔNG THÔNG TIN COVID 19</title>
+</head>
+
+<body>
+    <!--H E A D E R-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container top-link">
+            <ul class="nav">
+                <li class="nav-item">
+                    <span id="date" class="time__top">
+                        
+                    </span>
+                </li>
+            </ul>
+            <ul class="nav header__top-right">
+                <li class="nav-item d-flex right-header">
+                    <div class="box-search"><input class="input_search" type="text" placeholder="Nhập từ khóa"></div>
+                    <div class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></div>
+                    <div class="hotline-text"><span>Đường dây nóng: 19009095</span></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="box__header">
+        <div class="container d-flex box__logo_name-web">
+            <div class="box__logo-img">
+                <a href="index.html">
+                    <img class="logo-img" src="assets/img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="box__name-web">
+                <h3 class="name-web">Cổng thông tin về đại dịch Covid-19</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box__menu sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light nav__menu">
+            <div class="container menu">
+                <ul class="nav ">
+                    <li class="nav-item menu-item active-menu">
+                        <a class="nav-link icon__home link-menu" href="index.html">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link link-menu" href="ban-tin-covid-19.html">Bản tin Covid-19</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link link-menu" href="chi-dao-chong-dich.html">Chỉ đạo chống dịch</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link link-menu" href="du-phong-dieu-tri.html">Dự phòng - Điều trị</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link link-menu" href="vaccine-tiemchung.html">Vaccine - Tiêm chủng</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link link-menu" href="hoat-dong-dia-phuong.html">Hoạt động địa phương</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link link-menu" href="huongdan.html">Hướng dẫn</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link link-menu" href="video.html">Video</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link link-menu" href="tin-tuc.html">Tin tức</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link link-menu" href="tinh-hinh-the-gioi.html">Tình hình thế giới</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+
+    <!--M A I N-->
+    <!--container main-->
+    <div class="container mt-3 main">
+        <div class="box-vn">
+            <div class="d-flex">
+                <div class="box__text-title">
+                    <h2 class="title-section d-flex vn" style="cursor: pointer;">Việt Nam
+                    </h2>
+                </div>
+                <p class="text__title tg" style="cursor: pointer;"> /Thế giới</p>
+            </div>
+
+
+            <div class="notification">
+                <div class="row d-flex align-items-stretch justify-content-between">
+                    <div class="box box__1">
+                        <div class="item box_infected-case">
+                            <p class="text">SỐ CA NHIỄM</p>
+                            <p class="value">736.972</p>
+                            <p class="note">Hôm nay <b> +8.537</b></p>
+                        </div>
+                    </div>
+
+                    <div class="box box__2 ">
+                        <div class="item box_cured">
+                            <p class="text">KHỎI</p>
+                            <p class="value">505.859</p>
+                        </div>
+                    </div>
+                    <div class="box box__3">
+                        <div class="item box_die">
+                            <p class="text">TỬ VONG</p>
+                            <p class="value">18.220</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-tg">
+            <div class="d-flex">
+                <p class="vn" style="cursor: pointer;">Việt Nam /</p>
+                <div class="box__text-title">
+                    <h2 class="title-section d-flex tg" style="cursor: pointer;">Thế giới
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <div class="notification">
+                <div class="row d-flex align-items-stretch justify-content-between">
+                    <div class="box box__1">
+                        <div class="item box_infected-case tg">
+                            <p class="text">SỐ CA NHIỄM</p>
+                            <p class="value">235.145.285</p>
+                        </div>
+                    </div>
+
+                    <div class="box box__2 ">
+                        <div class="item box_cured">
+                            <p class="text">KHỎI</p>
+                            <p class="value">211.886.704</p>
+                        </div>
+                    </div>
+                    <div class="box box__3">
+                        <div class="item box_die">
+                            <p class="text">TỬ VONG</p>
+                            <p class="value">4.807.423</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="row mt-3">
+            <div class="col-md-7">
+                <div class="box__tin-tuc">
+                    <div class="box-img">
+                        <img src="assets/img/img-san-xuat-thanh-cong-vaccine.jpeg" alt="">
+                    </div>
+                    <h4 class="box-focus-content">
+                        Việt Nam sản xuất thành công lô vaccine COVID-19 Sputnik V đầu tiên từ bán thành phẩm
+                    </h4>
+                    <p class="box-focus-sapo">
+                        Chiều 24/9, Công ty TNHH MTV Vắc xin và Sinh phẩm số 1 (Vabiotech), Bộ Y tế đã công bố sản xuất thành công lô vaccine COVID-19 Sputnik V đầu tiên tại Việt Nam
+                    </p>
+                </div>
+
+            </div>
+
+            <div class=" col-md-5 ">
+                <div class="home__focus-item">
+                    <div class="box__text-title">
+                        <h2 class="title-section ">Diễn biến dịch</h2>
+                    </div>
+
+                    <div class="home__focus-position">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <p class="time">18:11 24/9/2021</p>
+                                <div class="box-focus-content mb-3">
+                                    <span class="box-focus-link-title">
+                                            THÔNG BÁO VỀ 8.537 CA MẮC MỚI
+                                        </span>
+                                </div>
+                                <div class="box-focus-sapo">
+                                    <p>Tính từ 17h ngày 23/9 đến 17h ngày 24/9, trên Hệ thống Quốc gia quản lý ca bệnh COVID-19 ghi nhận 8.537 ca nhiễm mới, trong đó 07 ca nhập cảnh và 8.530 ca ghi nhận trong nước (giảm 935 ca so với ngày trước đó) tại 34
+                                        tỉnh, thành phố (trong đó có 4.068 ca trong cộng đồng).</p>
+                                    <p>Các tỉnh, thành phố ghi nhận ca bệnh như sau: TP. Hồ Chí Minh (3.786), Bình Dương (2.978), Đồng Nai (803), Kiên Giang (203), Long An (194), Tiền Giang (112), An Giang (90), Cần Thơ (57), Tây Ninh (53), Đồng Tháp (40),
+                                        Đắk Lắk (33), Bình Thuận (24), Khánh Hòa (19), Bình Định (18), Ninh Thuận (16), Hà Nam (15), Bà Rịa - Vũng Tàu (13), Vĩnh Long (11), Quảng Bình (9), Phú Yên (9), Quảng Ngãi (7), Hà Nội (5), Cà Mau (6), Đắk Nông
+                                        (4), Đà Nẵng (4), Thừa Thiên Huế (4), Quảng Trị (4), Hậu Giang (4), Bến Tre (3), Bình Phước (2), Trà Vinh (1), Nghệ An (1), Thanh Hóa (1), Bạc Liêu (1).</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <p class="time">18:11 24/9/2021</p>
+                                <div class="box-focus-content mb-3">
+                                    <span class="box-focus-link-title">
+                                            THÔNG BÁO VỀ 8.537 CA MẮC MỚI
+                                        </span>
+                                </div>
+                                <div class="box-focus-sapo">
+                                    <p>Tính từ 17h ngày 23/9 đến 17h ngày 24/9, trên Hệ thống Quốc gia quản lý ca bệnh COVID-19 ghi nhận 8.537 ca nhiễm mới, trong đó 07 ca nhập cảnh và 8.530 ca ghi nhận trong nước (giảm 935 ca so với ngày trước đó) tại 34
+                                        tỉnh, thành phố (trong đó có 4.068 ca trong cộng đồng).</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <p class="time">18:11 24/9/2021</p>
+                                <div class="box-focus-content mb-3">
+                                    <span class="box-focus-link-title">
+                                            THÔNG BÁO VỀ 8.537 CA MẮC MỚI
+                                        </span>
+                                </div>
+                                <div class="box-focus-sapo">
+                                    <p>Tính từ 17h ngày 23/9 đến 17h ngày 24/9, trên Hệ thống Quốc gia quản lý ca bệnh COVID-19 ghi nhận 8.537 ca nhiễm mới, trong đó 07 ca nhập cảnh và 8.530 ca ghi nhận trong nước (giảm 935 ca so với ngày trước đó) tại 34
+                                        tỉnh, thành phố (trong đó có 4.068 ca trong cộng đồng).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3 box-text-xem-them">
+                    <span class="link_xem-them">Xem thêm</span>
+                </div>
+            </div>
+        </div>
+        <!--end row 1-->
+
+
+
+        <hr class="ke-ngang-title">
+        <div class="box__text-title">
+
+            <h2 class="title-section">Tình hình dịch cả nước</h2>
+        </div>
+        <div class="row row-2">
+
+            <div class="col-md-6 table">
+                <table>
+                    <tr>
+                        <th>Ngày</th>
+                        <th>Số ca nhiễm</th>
+                        <th>Khỏi</th>
+                        <th>Tử vong</th>
+                    </tr>
+                    <tr>
+                        <td>19-09</td>
+                        <td>10040</td>
+                        <td>9137</td>
+                        <td>233</td>
+                    </tr>
+                    <tr>
+                        <td>20-09</td>
+                        <td>8681</td>
+                        <td>6821</td>
+                        <td>215</td>
+                    </tr>
+                    <tr>
+                        <td>21-09</td>
+                        <td>11692</td>
+                        <td>11017</td>
+                        <td>240</td>
+                    </tr>
+                    <tr>
+                        <td>22-09</td>
+                        <td>9951</td>
+                        <td>11919</td>
+                        <td>236</td>
+                    </tr>
+                    <tr>
+                        <td>23-09</td>
+                        <td>9472</td>
+                        <td>6226</td>
+                        <td>236</td>
+                    </tr>
+                    <tr>
+                        <td>24-09</td>
+                        <td>8537</td>
+                        <td>12371</td>
+                        <td>203</td>
+                    </tr>
+                    <tr>
+                        <td>25-09</td>
+                        <td>9706</td>
+                        <td>10590</td>
+                        <td>180</td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="col-md-6">
+                <div>
+                    <!-- Nav pills -->
+                    <ul class="nav nav-pills" role="tablist">
+                        <li class="nav-item">
+                            <p class="nav-link active btn-case item" data-toggle="pill">Số ca nhiễm</p>
+                        </li>
+                        <li class="nav-item">
+                            <p class="nav-link btn-cured item" data-toggle="pill">Số ca khỏi</p>
+                        </li>
+                        <li class="nav-item">
+                            <p class="nav-link btn-die item" data-toggle="pill">Số ca tử vong</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="chartContainer__infected-case"></div>
+                <div id="chartContainer__cured"></div>
+                <div id="chartContainer__die"></div>
+            </div>
+        </div>
+
+
+        <!--end row 2-->
+
+        <!--row new-->
+
+        <hr class="ke-ngang-title">
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <div class="box__text-title-new">
+                        <h2 class="title-section">Chỉ đạo chống dịch</h2>
+                    </div>
+
+                    <div class="box-chi-dao ">
+                        <a href="tin-tuc-3.html" style="text-decoration: none">
+                            <div class="item-chi-dao d-flex item-video">
+                                <img src="assets/img/chi-dao-chong-dich/1.png" alt="">
+                                <div class="text-item">
+                                    <h5>Thứ trưởng Bộ Y tế:"Chúng ta đã làm tốt..."</h5>
+                                    <p>Sáng 26/9, Thứ trưởng Bộ Y tế Nguyễn Trường Sơn cùng Đoàn công tác Bộ phận Thường trực đặc biệt...</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <div class="item-chi-dao d-flex item-video">
+                            <img src="assets/img/chi-dao-chong-dich/2.png" alt="">
+                            <div class="text-item">
+                                <h5>Khuyến cáo của Bộ Y tế đảm bảo dinh dưỡng cho...</h5>
+                                <p>SKĐS - Người mắc COVID-19 cách ly tại nhà hay tại các khu cách ly cần được đảm bảo cung cấp đủ thực...</p>
+                            </div>
+                        </div>
+
+                        <div class="item-chi-dao d-flex item-video">
+                            <img src="assets/img/chi-dao-chong-dich/3.png" alt="">
+                            <div class="text-item">
+                                <h5>4 điều cần biết cho phụ nữ mang thai tiêm vaccine COVID-19</h5>
+                                <p>SKĐS – WHO khuyến cáo không trì hoãn mang thai hay đình chỉ thai nghén vì lý do tiêm vaccine COVID-19....</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+                <div>
+                    <div class="box__text-title-new">
+                        <h2 class="title-section">Bản tin Covid-19</h2>
+                    </div>
+                    <div class="box-chi-dao">
+                        <div class="item-chi-dao d-flex item-video">
+                            <img src="assets/img/ban-tin-covit/1.png" alt="">
+                            <div class="text-item">
+                                <h5>Thêm nhiều học sinh mắc COVID-19, quân y hỗ...</h5>
+                                <p>Chỉ chưa đầy một tuần, tỉnh Hà Nam ghi nhận 59 ca mắc COVID-19 cộng đồng là giáo viên, học sinh các...</p>
+                            </div>
+                        </div>
+                        <div class="item-chi-dao d-flex item-video">
+                            <img src="assets/img/ban-tin-covit/2.png" alt="">
+                            <div class="text-item">
+                                <h5>Bến Tre phát hiện 9 trường hợp dương tính với SARS-CoV-2...</h5>
+                                <p>Ngày 25/9, Giám đốc Sở Y tế tỉnh Bến Tre Ngô Văn Tán cho biết, tỉnh vừa ghi nhận thêm 12 trường hợp dương...</p>
+                            </div>
+                        </div>
+
+                        <div class="item-chi-dao d-flex item-video">
+                            <img src="assets/img/ban-tin-covit/3.png" alt="">
+                            <div class="text-item">
+                                <h5>Đà Nẵng tiêm vaccine cho 3.390 người nước ngoài</h5>
+                                <p>Chiều 25/9, Đà Nẵng tổ chức tiêm vaccine phòng Covid-19 cho hàng nghìn người nước ngoài đang làm...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--new row-->
+        <hr class="ke-ngang-title">
+        <div class="box__text-title">
+            <h2 class="title-section"> Dự phòng - Điều trị</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="item-dieu-tri item-video">
+                    <img src="assets/img/du-phong-dieu-tri/1.png" alt="">
+                    <h4 class="mt-3">Hà Nội lên phương án dự trù số vaccine COVID-19 cần để tiêm mũi 2 cho người dân</h4>
+                    <p style="color: #444444;">Đến nay, Hà Nội đã được cấp hơn 7,34 triệu liều vaccine. Tới sáng 25/9, Hà Nội đã tiêm được hơn 6,62 triệu mũi vaccine cho hơn 5,76 triệu người, trong đó có hơn 851.000 người đã tiêm đủ 2 mũi.</p>
+                </div>
+            </div>
+            <div class="col-md-6 item-right">
+                <div class="item-dieu-tri item-video d-flex">
+                    <img src="assets/img/du-phong-dieu-tri/2.png" alt="">
+                    <p>Hà Nội điều chỉnh phân luồng xét nghiệm sàng lọc chẩn đoán SARS-CoV-2</p>
+                </div>
+                <hr>
+                <div class="item-dieu-tri item-video d-flex">
+                    <img src="assets/img/du-phong-dieu-tri/3.png" alt="">
+                    <p>Giảm 50% bệnh nhân chuyển nặng nhờ mô hình chăm sóc F0 tại cộng đồng
+                    </p>
+                </div>
+                <hr>
+                <div class="item-dieu-tri item-video d-flex">
+                    <img src="assets/img/du-phong-dieu-tri/4.png" alt="">
+                    <p>Bộ Y tế tiếp nhận máy thở, vật tư y tế hỗ trợ phòng chống dịch</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--vacxin tiem-chung-->
+        <!--new row-->
+        <hr class="ke-ngang-title">
+        <div class="box__text-title">
+            <h2 class="title-section">Vaccine - Tiêm chủng</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="item-dieu-tri item-video">
+                    <img src="assets/img/vacxin-tiem-chung/1.png" alt="">
+                    <h4 class="mt-3">Bộ trưởng Bộ Y tế tiếp nhận 1,05 triệu liều vaccine COVID-19 Abdala của Cuba</h4>
+                    <p style="color: #444444;">SKĐS - Tối 25/9, trước sự chứng kiến của Chủ tịch nước Nguyễn Xuân Phúc, 1,05 triệu liều vaccine COVID-19 Abdala của Cuba đã được bàn giao cho Bộ Y tế và Bộ Quốc phòng. GS.TS Nguyễn Thanh Long- Bộ trưởng Bộ Y tế đại diện tiếp nhận...</p>
+                </div>
+            </div>
+            <div class="col-md-6 item-right">
+                <div class="item-dieu-tri item-video d-flex">
+                    <img src="assets/img/vacxin-tiem-chung/2.png" alt="">
+                    <p>Nhật Bản tặng Việt Nam thêm 400.000 liều vaccine COVID-19</p>
+                </div>
+                <hr>
+                <div class="item-dieu-tri item-video d-flex">
+                    <img src="assets/img/vacxin-tiem-chung/3.png" alt="">
+                    <p>Bộ Y tế yêu cầu xây dựng hướng dẫn sử dụng vaccine COVID-19 Hayat-Vax và Abdala</p>
+                </div>
+                <hr>
+                <div class="item-dieu-tri item-video d-flex">
+                    <img src="assets/img/vacxin-tiem-chung/4.png" alt="">
+                    <p>Việt Nam sản xuất thành công lô vaccine COVID-19 Sputnik V đầu tiên từ bán thành phẩm</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--row-->
+        <hr class="ke-ngang-title">
+        <div class="box__text-title">
+            <h2 class="title-section">Video</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 video_ncovi">
+                <iframe width="560" height="303" src="https://www.youtube.com/embed/elWIPbDfLA0" title="YouTube video player " frameborder="0 " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+                <h4>Covid-19: Các biến thể mới xuất hiện thế nào, nguy hiểm tới đâu?</h4>
+                <p>Đợt bùng phát COVID19 gần đây đã được Tổ chức Y tế Thế giới chỉ định là tình trạng khẩn cấp về sức khỏe cộng đồng. Trong thời gian như vậy, điều quan trọng là phải xóa tan những huyền thoại và khẳng định những sự thật cơ bản về loại coronavirus
+                    mới được...</p>
+            </div>
+            <div class="col-md-6 tab-right-video ">
+                <div class="row d-flex ">
+                    <div class="item-video box-right-video ">
+                        <img src="assets/img/video-img/video-img-1.png " alt=" ">
+                        <p>Hướng dẫn cách ly tại nhà cho đối tượng F0, F1 cao tuổi, người khuyết tật</p>
+                    </div>
+                    <div class="item-video box-right-video ">
+                        <img src="assets/img/video-img/video-img-2.png " alt=" ">
+                        <p>Thứ trưởng Bộ Y tế: Tiếp tục làm tốt hơn để đem lại hi vọng cho cuộc đời các bệnh nhân</p>
+                    </div>
+                    <div class="item-video box-right-video ">
+                        <img src="assets/img/video-img/video-img-3.png " alt=" ">
+                        <p>Hướng dẫn sử dụng một số thiết bị y tế tại nhà</p>
+                    </div>
+                    <div class="item-video box-right-video ">
+                        <img src="assets/img/video-img/video-img-4.png " alt=" ">
+                        <p>Thứ trưởng Bộ Y tế: Làm sao để từng em có hoàn cảnh khó ....</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!--row new huong-dan/hoat-dong-dia-phuong-->
+        <hr class="ke-ngang-title ">
+        <div class="row ">
+            <div class="col-md-6 ">
+                <div>
+                    <div class="box__text-title-new ">
+                        <h2 class="title-section ">Hướng dẫn</h2>
+                    </div>
+
+                    <div class="box-chi-dao ">
+                        <div class="item-chi-dao d-flex item-video ">
+                            <img src="assets/img/huong-dan/1.png " alt=" ">
+                            <div class="text-item ">
+                                <h5>Nếu sốt sau tiêm vaccine COVID-19 nên kiêng những thứ này</h5>
+                                <p>SKĐS - Sau tiêm vaccine COVID-19, cơ thể có thể đối mặt với một số phản ứng như sốt, đau nhức, mệt mỏi......</p>
+                            </div>
+                        </div>
+                        <div class="item-chi-dao d-flex item-video ">
+                            <img src="assets/img/huong-dan/2.png " alt=" ">
+                            <div class="text-item ">
+                                <h5>Khuyến cáo của Bộ Y tế đảm bảo dinh dưỡng cho người mắc...</h5>
+                                <p>SKĐS - Người mắc COVID-19 cách ly tại nhà hay tại các khu cách ly cần được đảm bảo cung cấp đủ thực...</p>
+                            </div>
+                        </div>
+
+                        <div class="item-chi-dao d-flex item-video ">
+                            <img src="assets/img/huong-dan/3.png " alt=" ">
+                            <div class="text-item ">
+                                <h5>4 điều cần biết cho phụ nữ mang thai tiêm vaccine COVID-19</h5>
+                                <p>SKĐS – WHO khuyến cáo không trì hoãn mang thai hay đình chỉ thai nghén vì lý do tiêm vaccine COVID-19....</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6 ">
+                <div>
+                    <div class="box__text-title-new ">
+                        <h2 class="title-section ">Hoạt động địa phương</h2>
+                    </div>
+                    <div class="box-chi-dao ">
+                        <div class="item-chi-dao d-flex item-video ">
+                            <img src="assets/img/hoat-dong-dia-phuong/1.png " alt=" ">
+                            <div class="text-item ">
+                                <h5>Thêm nhiều học sinh mắc COVID-19, quân y hỗ trợ Hà Nam...</h5>
+                                <p>Chỉ chưa đầy một tuần, tỉnh Hà Nam ghi nhận 59 ca mắc COVID-19 cộng đồng là giáo viên, học sinh các...</p>
+                            </div>
+                        </div>
+                        <div class="item-chi-dao d-flex item-video ">
+                            <img src="assets/img/hoat-dong-dia-phuong/2.png " alt=" ">
+                            <div class="text-item ">
+                                <h5>Bến Tre phát hiện 9 trường hợp dương tính với SARS-CoV-2...</h5>
+                                <p>Ngày 25/9, Giám đốc Sở Y tế tỉnh Bến Tre Ngô Văn Tán cho biết, tỉnh vừa ghi nhận thêm 12 trường hợp dương...</p>
+                            </div>
+                        </div>
+
+                        <div class="item-chi-dao d-flex item-video ">
+                            <img src="assets/img/ban-tin-covit/3.png " alt=" ">
+                            <div class="text-item ">
+                                <h5>Đà Nẵng tiêm vaccine cho 3.390 người nước ngoài</h5>
+                                <p>Chiều 25/9, Đà Nẵng tổ chức tiêm vaccine phòng Covid-19 cho hàng nghìn người nước ngoài đang làm...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--new row-->
+        <hr class="ke-ngang-title ">
+        <div class="box__text-title-new ">
+            <h2 class="title-section ">Tình hình thế giới</h2>
+        </div>
+        <div class="row ">
+            <div class="col-md-6 ">
+                <div class="item-dieu-tri item-video ">
+                    <img src="assets/img/tinh-hinh-the-gioi/1.png " alt=" ">
+                    <h4 class="mt-3 ">Singapore tái thắt chặt các biện pháp phòng dịch</h4>
+                    <p>Nhà chức trách Singapore ngày 24/9 cho biết, nước này sẽ thắt chặt trở lại các quy định phòng dịch Covid-19, nhằm ngăn chặn sự gia tăng đột biến các ca nhiễm mới và giảm áp lực lên hệ thống y tế.</p>
+                </div>
+            </div>
+            <div class="col-md-6 item-right ">
+                <div class="item-dieu-tri item-video d-flex ">
+                    <img src="assets/img/tinh-hinh-the-gioi/2.png " alt=" ">
+                    <p>Cuba chuẩn bị mở cửa kinh tế nhờ tăng tốc tiêm vaccine phòng COVID-19</p>
+                </div>
+                <hr>
+                <div class="item-dieu-tri item-video d-flex ">
+                    <img src="assets/img/tinh-hinh-the-gioi/3.png " alt=" ">
+                    <p>
+                        Hàn Quốc lần đầu ghi nhận hơn 3.000 ca mắc Covid-19/ngày
+                    </p>
+                </div>
+                <hr>
+                <div class="item-dieu-tri item-video d-flex ">
+                    <img src="assets/img/tinh-hinh-the-gioi/4.png " alt=" ">
+                    <p>
+                        Thái Lan khởi động chiến dịch tăng tốc tiêm vaccine phòng Covid-19
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!--row 3-->
+        <!--tin tức-->
+        <hr class="ke-ngang-title ">
+        <div class="box__text-title-new ">
+            <h2 class="title-section ">Tin tức</h2>
+        </div>
+        <div class="row ">
+            <div class="col-md-3 ">
+                <div class="box-tintuc ">
+                    <img src="assets/img/tin-tuc/tin1.jpeg " alt=" ">
+                    <p>Hà Nội: Kết quả xét nghiệm 168 người liên quan ca COVID-19 tử vong ở phố Trần Nhân Tông</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div class="box-tintuc ">
+                    <img src="assets/img/tin-tuc/tin1.jpeg " alt=" ">
+                    <p>Hà Nội còn 29 điểm phong toả, gần 3.500 người cách ly phòng dịch COVID-19</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 ">
+                <div class="box-tintuc ">
+                    <img src="assets/img/tin-tuc/tin2.png " alt=" ">
+                    <p>Hà Nội phát hiện 4 người mắc COVID-19</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 ">
+                <div class="box-tintuc ">
+                    <img src="assets/img/tin-tuc/tin3.png " alt=" ">
+                    <p>Tác nghiệp Covid' ở chợ cá Yên Sở, phóng viên bị ném thủng kính xe</p>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div class="box-tintuc ">
+                    <img src="assets/img/tin-tuc/tin4.jpg " alt=" ">
+                    <p>Stress, sang chấn tâm lý - nỗi ám ảnh của nhân viên y tế trong đại dịch COVID-19</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 ">
+                <div class="box-tintuc ">
+                    <img src="assets/img/tin-tuc/tin5.jpg " alt=" ">
+                    <p>Những đứa trẻ chờ mẹ trong tuyệt vọng ở Sài Gòn</p>
+                </div>
+            </div>
+
+            <div class="col-md-3 ">
+                <div class="box-tintuc ">
+                    <img src="assets/img/tin-tuc/tin6.png " alt=" ">
+                    <p>Hà Nội khẩn tìm người đến cửa hàng bánh liên quan ca tử vong nhiễm COVID-19 chưa rõ nguồn lây</p>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 ">
+                <div class="box-tintuc ">
+                    <img src=assets/img/tin-tuc/tin7.png " alt=" ">
+                    <p>Hà Nội phát hiện ca COVID-19 cộng đồng ở công trường MB Nam An Khánh</p>
+                </div>
+            </div>
+        </div>
+        <!--end row 3-->
+
+
+        <!--row 4-->
+        <div class="box__text-title-new ">
+            <h2 class="title-section ">Liên kết</h2>
+        </div>
+        <div class="d-flex justify-content-between ">
+            <div class="box-item ">
+                <img src="assets/img/lien-ket/lien-ket-1.jpg " alt=" ">
+            </div>
+            <div class="box-item ">
+                <img src="assets/img/lien-ket/lien-ket-2.jpg " alt=" ">
+            </div>
+            <div class="box-item ">
+                <img src="assets/img/lien-ket/lien-ket-3.png " alt=" ">
+            </div>
+            <div class="box-item ">
+                <img src="assets/img/lien-ket/lien-ket-4.png " alt=" ">
+            </div>
+            <div class="box-item ">
+                <img src="assets/img/lien-ket/lien-ket-5.png " alt=" ">
+            </div>
+        </div>
+        <!--end container row main-->
+    </div>
+    <!--end container chinh-->
+
+    <!--F O O T E R-->
+    <div class="footer box__header ">
+        <div class="container ">
+            <div class="footer__flex d-flex ">
+                <a href="index.html " class="footer__logo box__logo-img ">
+                    <img src="assets/img/logo.png " alt=" " class="logo-img ">
+                </a>
+                <div class="footer__text ">
+                    <h5>Nhóm 4 - Internet và giao thức</h5>
+                    <p>Thành viên</p>
+                    <ul>
+                        <li><span>Vũ Đăng Đại - B18DCVT078</span></li>
+                        <li><span>Đặng Tiến Dũng - B18DCVT057</span></li>
+                        <li><span>Nguyễn Văn Đại - B18DCVT077</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--onTop-->
+    <div>
+        <img src="assets/img/up.png " alt=" " class="back-to-top ">
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js "></script>
+    <script type="text/javascript " src="https://canvasjs.com/assets/script/canvasjs.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js "></script>
+    <script src="assets/js/main.js "></script>
+    <script src="assets/js/chart-index.js "></script>
+</body>
+
+</html>

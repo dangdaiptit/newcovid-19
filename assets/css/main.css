@@ -1,0 +1,546 @@
+span.time__top {
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+    margin-left: 250px;
+}
+
+input.input_search {
+    height: 28px;
+    width: 100%;
+    border: transparent;
+    background: #eceaea;
+    border-radius: 8px;
+    /* margin-right: 5px; */
+    padding: 0 10px;
+    outline: transparent;
+    font-size: 13px;
+}
+
+.container.top-link {
+    height: 30px;
+}
+
+.box-search {
+    width: 100;
+    overflow: hidden;
+    transition: .3s all;
+    /* margin-right: 5px; */
+    padding-right: 10px;
+}
+
+.icon-search i::before {
+    color: #999999;
+    cursor: pointer;
+}
+
+.hotline-text {
+    background-color: #ed1c24;
+    color: #ffff;
+    border-radius: 10px;
+    font-weight: 600;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 14px;
+    padding: 3px 12px;
+    height: 28px;
+}
+
+.hotline-text {
+    margin-left: 15px;
+}
+
+.box__header {
+    background-color: #2E3192;
+}
+
+.box__logo_name-web {
+    background-color: #2E3192;
+}
+
+.box__logo-img {
+    background-color: white;
+    padding-top: 1px;
+}
+
+img.logo-img {
+    cursor: pointer;
+}
+
+.logo-img {
+    height: 120px;
+    width: auto;
+}
+
+.name-web {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    margin-left: 18px;
+}
+
+.box__name-web {
+    margin: auto 10px;
+}
+
+.box__menu {
+    background-color: #2E3192;
+    padding-top: 10px;
+}
+
+a.nav-link.link-menu {
+    color: white;
+}
+
+a.nav-link {
+    padding: 0 6px 6px;
+    /* margin: auto; */
+}
+
+.icon__home i::before {
+    color: white;
+    font-size: 20px;
+}
+
+h3.name-web {
+    margin-bottom: 0;
+}
+
+.active-menu {
+    border-bottom: solid 3px white;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.nav__menu {
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 0;
+}
+
+.box__text-title {
+    border-left: solid 4px #2E3192;
+    height: 26.4px;
+    margin-bottom: 8px;
+}
+
+.box__text-title-new {
+    border-left: solid 4px #2E3192;
+    height: 26.4px;
+    margin-bottom: 8px;
+}
+
+.text__title {
+    font-size: 19px;
+    color: #8283BE;
+    margin-left: 25px;
+    font-weight: 500;
+}
+
+.item.box_infected-case.tg {
+    margin-top: 12px;
+}
+
+.box-tg p {
+    font-size: 19px;
+    color: #8283BE;
+    font-weight: 500;
+    margin-right: 25px;
+}
+
+.box {
+    width: calc(33% - 9.75px);
+    padding: 8px;
+    text-align: center;
+    /* border-radius: 5px; */
+}
+
+.row.d-flex.align-items-stretch.justify-content-between {
+    margin: auto 0;
+}
+
+.box__1 {
+    background-color: #FDE8E9;
+}
+
+.box__2 {
+    background-color: #E9F6EC;
+}
+
+.box__3 {
+    background-color: #F0EFF4;
+}
+
+.item.box_cured {
+    margin-top: 12px;
+}
+
+.item.box_die {
+    margin-top: 12px;
+}
+
+.item p {
+    margin: auto;
+}
+
+p.text {
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.box__1 p.value {
+    font-weight: 800;
+    color: #ed1c24;
+    font-size: 18px;
+}
+
+.box__1 p.note {
+    font-size: 13px;
+    color: #666;
+}
+
+.box__2 p.value {
+    font-weight: 800;
+    color: #28A745;
+    font-size: 18px;
+}
+
+.box__3 p.value {
+    font-weight: 800;
+    color: #333;
+    font-size: 18px;
+}
+
+.box-img img {
+    height: auto;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.home__focus-position {
+    overflow-y: scroll;
+    height: 450px;
+    text-align: justify;
+    background-color: #F0F8FF;
+    border-left: solid 1px #D8DFE5;
+    border-top: solid 1px #D8DFE5;
+}
+
+
+/* width */
+
+.home__focus-position::-webkit-scrollbar {
+    width: 5px;
+    background-color: #D7DEE3;
+    /*mau thanh lan dai*/
+}
+
+.swiper-slide {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+
+/* Track - thanh scroll dai*/
+
+.home__focus-position::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px;
+    border-radius: 10px;
+    color: #D7DEE3;
+    /*mau vien thanh lan dai*/
+}
+
+
+/* Handle */
+
+.home__focus-position::-webkit-scrollbar-thumb {
+    background: #AE0909;
+    /**mau thanh lan ngan*/
+    border-radius: 10px;
+}
+
+h2.title-section {
+    color: #2E3192;
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 10px;
+    border-left: solid 4px red;
+    margin-bottom: 0;
+}
+
+p.time {
+    margin: 10px 0 10px 50px;
+    color: #BC161E;
+    font-weight: 600;
+}
+
+span.box-focus-link-title {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.box-text-xem-them {
+    text-align: center;
+    color: #2E3192;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h4.box-focus-content {
+    margin-top: 7px;
+    /* font-weight: 400; */
+}
+
+
+/* table_cutomes */
+
+.table table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table td,
+.table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+p.item {
+    text-decoration: none;
+    /* padding: 9px 8px; */
+    background: rgba(46, 49, 146, 0.1);
+    margin-left: 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    /* color: #757575; */
+    /* font-style: normal; */
+    /* text-align: center; */
+    cursor: pointer;
+}
+
+p.nav-link.active.btn-case.item {
+    background-color: rgb(46, 49, 146);
+}
+
+p.nav-link.btn-case.item.active.show {
+    background-color: rgb(46, 49, 146);
+}
+
+p.nav-link.btn-cured.item.active.show {
+    background-color: rgb(46, 49, 146);
+}
+
+p.nav-link.btn-die.item.active.show {
+    background-color: rgb(46, 49, 146);
+}
+
+
+/* p.item.action {
+    background: #2E3192;
+    color: #fff;
+} */
+
+.footer__text {
+    color: white;
+    margin: 10px 20px;
+}
+
+.footer__text h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+a.footer__logo.box__logo-img {
+    padding-top: 40px;
+}
+
+.footer.box__header {
+    margin-top: 100px;
+}
+
+.box-item img {
+    height: 80px;
+}
+
+.box-tintuc p {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 15px;
+    margin-right: 13px;
+}
+
+.box-tintuc>img {
+    border-radius: 3px;
+}
+
+.box-tintuc {
+    cursor: pointer;
+}
+
+img.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 50px;
+    height: auto;
+    z-index: 9999;
+    cursor: pointer;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+}
+
+img.back-to-top:hover {
+    opacity: 0.7;
+}
+
+.item-video>img {
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.item-chi-dao.d-flex {
+    margin: 17px 0;
+}
+
+.text-item {
+    margin-left: 17px;
+}
+
+.text-item>h5 {
+    font-weight: 500;
+    color: #333333;
+}
+
+.text-item>p {
+    font-size: 14px;
+    color: #444;
+}
+
+.box-chi-dao {
+    cursor: pointer;
+}
+
+.item-dieu-tri.item-video.d-flex p {
+    margin: 3px 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.box-right-video p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+    width: 250px;
+}
+
+.box-right-video {
+    padding-left: 25px;
+}
+
+.ke-ngang-title {
+    color: #2E3192;
+    background-color: #2E3192;
+}
+
+
+/*!Trang ban tin covid-19*/
+
+.box-name-page.d-flex i {
+    margin: auto 10px;
+    font-size: 25px;
+}
+
+.box-name-page.d-flex h4 {
+    margin-bottom: 0;
+}
+
+.box-name-page.d-flex {
+    color: #2E3192;
+}
+
+.box-name-page.d-flex a {
+    text-decoration: none;
+    color: #2e3192;
+}
+
+.box-img-ban-tin p {
+    color: #333333;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.box-item-ban-tin:nth-last-child(2) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item-hot-line.d-flex i {
+    margin-top: auto;
+    color: #EE2930;
+    font-size: 30px;
+    margin-right: 18px;
+}
+
+.item-hot-line.d-flex p {
+    margin: auto 0;
+    color: #EE2930;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-hot-line {
+    padding: 10px 0;
+    background: #FEE9EA;
+    border-radius: 3px;
+}
+
+.name-box-lh {
+    padding: 13px 0;
+    background: #F0EFF4;
+    font-weight: 600;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 17px;
+}
+
+.item-lienhe p {
+    margin: auto 10px;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.box_lienhe {
+    overflow-y: scroll;
+    height: 370px;
+    border: solid 1px #F0EFF4;
+}
+
+
+/* thanh tien trinh scroll*/
+
+.box_lienhe::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Thanh tiến trình */
+
+.box_lienhe::-webkit-scrollbar-thumb {
+    background-color: #F0EFF4;
+}
+
+
+/* !Trang tin tuc 3*/
+
+p.time-posts {
+    font-style: italic;
+    font-size: 13px;
+    color: #515151;
+}

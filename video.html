@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- <link rel="stylesheet" href="assets/css/ban-tin-covid-19.css"> -->
+
+
+    <!--Link font Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--logo-->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/logo-web//apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/logo-web//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/logo-web//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/logo-web//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/logo-web//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/logo-web//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/logo-web//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/logo-web//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo-web//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/logo-web//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo-web//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/logo-web//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo-web//favicon-16x16.png">
+    <link rel="manifest" href="assets/img/logo-web//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/logo-web//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>CỔNG THÔNG TIN COVID 19</title>
+</head>
+
+<body>
+    <!--H E A D E R-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container top-link">
+            <ul class="nav">
+                <li class="nav-item">
+                    <span id="date" class="time__top"></span>
+                </li>
+            </ul>
+            <ul class="nav header__top-right">
+                <li class="nav-item d-flex right-header">
+                    <div class="box-search"><input class="input_search" type="text" placeholder="Nhập từ khóa"></div>
+                    <div class="icon-search"><i class="fa fa-search" aria-hidden="true"></i></div>
+                    <div class="hotline-text"><span>Đường dây nóng: 19009095</span></div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="box__header">
+        <div class="container d-flex box__logo_name-web">
+            <div class="box__logo-img">
+                <a href="index.html">
+                    <img class="logo-img" src="assets/img/logo.png" alt="">
+                </a>
+            </div>
+            <div class="box__name-web">
+                <h3 class="name-web">Cổng thông tin về đại dịch Covid-19</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="box__menu sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light nav__menu">
+            <div class="container menu">
+                <ul class="nav ">
+                    <li class="nav-item menu-item ">
+                        <a class="nav-link icon__home link-menu" href="index.html">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link link-menu" href="ban-tin-covid-19.html">Bản tin Covid-19</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link link-menu" href="chi-dao-chong-dich.html">Chỉ đạo chống dịch</a>
+                    </li>
+                    <li class="nav-item menu-item ">
+                        <a class="nav-link link-menu" href="du-phong-dieu-tri.html">Dự phòng - Điều trị</a>
+                    </li>
+                    <li class="nav-item menu-item ">
+                        <a class="nav-link link-menu" href="vaccine-tiemchung.html">Vaccine - Tiêm chủng</a>
+                    </li>
+                    <li class="nav-item menu-item ">
+                        <a class="nav-link link-menu" href="hoat-dong-dia-phuong.html">Hoạt động địa phương</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link link-menu" href="huongdan.html">Hướng dẫn</a>
+                    </li>
+                    <li class="nav-item menu-item active-menu">
+                        <a class="nav-link link-menu" href="video.html">Video</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link link-menu" href="tin-tuc.html">Tin tức</a>
+                    </li>
+                    <li class="nav-item menu-item">
+                        <a class="nav-link link-menu" href="tinh-hinh-the-gioi.html">Tình hình thế giới</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+
+    <!--M A I N-->
+    <!--container main-->
+    <div class="container mt-3 main">
+        <div class="box-name-page d-flex">
+            <a href="ban-tin-covid-19.html">
+                <h4>VIDEO</h4>
+            </a>
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <hr>
+
+        <div class="row mt-3">
+            <div class="col-md-8 main">
+
+
+
+                <div class="item-chi-dao d-flex item-video">
+                    <img src="https://covid19.qltns.mediacdn.vn/thumb_w/260/354844073405468672/2021/9/29/554d2c659e02575c0e13-16329191476631832224441-0-127-710-1263-crop-1632919154622258166020.jpg" alt="">
+                    <div class="text-item">
+                        <h5>10 lưu ý khi điều trị tại cơ sở điều trị ban đầu</h5>
+                        <p>BS. Đỗ Doãn Bách sẽ nhắc 10 điều cần lưu ý và hành động cụ thể đi kèm đối với F0 như các vật dụng cần mang, tự theo dõi sức khỏe,...</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="item-chi-dao d-flex item-video">
+                    <img src="https://covid19.qltns.mediacdn.vn/thumb_w/260/354844073405468672/2021/9/27/9ead43f7bfbe76e02faf-16327248922451210281600-0-134-707-1265-crop-1632724899857154010445.jpg" alt="">
+                    <div class="text-item">
+                        <h5>Trường hợp nào cần nhập viện khi nhiễm COVID-19?</h5>
+                        <p>Hầu hết những người nhiễm virus sẽ có triệu chứng từ nhẹ đến trung bình và có thể hồi phục mà không cần nhập viện. Tuy nhiên một số trường hợp nhiễm hoặc nghi nhiễm có thể trạng đặc biệt sẽ cần được theo dõi...</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="item-chi-dao d-flex item-video">
+                    <img src="https://suckhoedoisong.qltns.mediacdn.vn/thumb_w/260/324455921873985536/2021/9/30/tiem-vaccine-27-1632749468450594977588-0-0-1000-1600-crop-16329840764281605491559.jpeg" alt="">
+                    <div class="text-item">
+                        <h5>Trưa 30/9: Cả nước đã tiêm trên 42,3 triệu liều vaccine COVID-19; Hà Nam xử phạt 1 trường hợp 7,5 triệu đồng vì trốn khỏi vùng cách ly</h5>
+                        <p>SKĐS - Cập nhật trên Cổng thông tin tiêm chủng vaccine COVID-19 cho biết đến 12h trưa ngày 30/9, có hơn 42,3 triệu liều vaccine COVID-19...</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="item-chi-dao d-flex item-video">
+                    <img src="https://suckhoedoisong.qltns.mediacdn.vn/thumb_w/260/324455921873985536/2021/9/30/bncovid-16329622219981567994409-0-0-918-1469-crop-16329622272591817323267.jpeg" alt="">
+                    <div class="text-item">
+                        <h5>Sáng 30/9: Gần 7.000 ca COVID-19 nặng đang điều trị; 11 quận, huyện ở TP HCM đã kiểm soát được dịch</h5>
+                        <p>SKĐS - Việt Nam hiện đã chữa khỏi hơn 583.500 ca mắc COVID-19, trong số các bệnh nhân đang điều trị, hiện có gần 7.000 ca nặng. 11...</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="item-chi-dao d-flex item-video">
+                    <img src="https://suckhoedoisong.qltns.mediacdn.vn/thumb_w/260/324455921873985536/2021/9/29/cach-ly-ngau-83-1632913535988614382122-0-0-392-627-crop-16329135412741811752932.jpg" alt="">
+                    <div class="text-item">
+                        <h5>Ngày 29/9: Có 8.758 ca mắc COVID-19, số bệnh nhân khỏi kỷ lục với 23.568 ca</h5>
+                        <p>SKĐS - Bản tin dịch COVID-19 ngày 29/9 của Bộ Y tế cho biết có 8.758 ca mắc COVID-19 tại TP HCM và 32 tỉnh, thành phố, tăng 4.161 ca so với hôm qua. Trong ngày có 23.568 ca khỏi, cao gần gấp 3 lần số mắc mới.</p>
+                    </div>
+                </div>
+                <hr>
+
+
+            </div>
+
+            <div class=" col-md-4 ">
+                <div class="home__focus-item">
+                    <div class="box__text-title">
+                        <h2 class="title-section ">Diễn biến dịch</h2>
+                    </div>
+
+                    <div class="home__focus-position">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <p class="time">18:11 24/9/2021</p>
+                                <div class="box-focus-content mb-3">
+                                    <span class="box-focus-link-title">
+                                            THÔNG BÁO VỀ 8.537 CA MẮC MỚI
+                                        </span>
+                                </div>
+                                <div class="box-focus-sapo">
+                                    <p>Tính từ 17h ngày 23/9 đến 17h ngày 24/9, trên Hệ thống Quốc gia quản lý ca bệnh COVID-19 ghi nhận 8.537 ca nhiễm mới, trong đó 07 ca nhập cảnh và 8.530 ca ghi nhận trong nước (giảm 935 ca so với ngày trước đó) tại 34
+                                        tỉnh, thành phố (trong đó có 4.068 ca trong cộng đồng).</p>
+                                    <p>Các tỉnh, thành phố ghi nhận ca bệnh như sau: TP. Hồ Chí Minh (3.786), Bình Dương (2.978), Đồng Nai (803), Kiên Giang (203), Long An (194), Tiền Giang (112), An Giang (90), Cần Thơ (57), Tây Ninh (53), Đồng Tháp (40),
+                                        Đắk Lắk (33), Bình Thuận (24), Khánh Hòa (19), Bình Định (18), Ninh Thuận (16), Hà Nam (15), Bà Rịa - Vũng Tàu (13), Vĩnh Long (11), Quảng Bình (9), Phú Yên (9), Quảng Ngãi (7), Hà Nội (5), Cà Mau (6), Đắk Nông
+                                        (4), Đà Nẵng (4), Thừa Thiên Huế (4), Quảng Trị (4), Hậu Giang (4), Bến Tre (3), Bình Phước (2), Trà Vinh (1), Nghệ An (1), Thanh Hóa (1), Bạc Liêu (1).</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <p class="time">18:11 24/9/2021</p>
+                                <div class="box-focus-content mb-3">
+                                    <span class="box-focus-link-title">
+                                            THÔNG BÁO VỀ 8.537 CA MẮC MỚI
+                                        </span>
+                                </div>
+                                <div class="box-focus-sapo">
+                                    <p>Tính từ 17h ngày 23/9 đến 17h ngày 24/9, trên Hệ thống Quốc gia quản lý ca bệnh COVID-19 ghi nhận 8.537 ca nhiễm mới, trong đó 07 ca nhập cảnh và 8.530 ca ghi nhận trong nước (giảm 935 ca so với ngày trước đó) tại 34
+                                        tỉnh, thành phố (trong đó có 4.068 ca trong cộng đồng).</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <p class="time">18:11 24/9/2021</p>
+                                <div class="box-focus-content mb-3">
+                                    <span class="box-focus-link-title">
+                                            THÔNG BÁO VỀ 8.537 CA MẮC MỚI
+                                        </span>
+                                </div>
+                                <div class="box-focus-sapo">
+                                    <p>Tính từ 17h ngày 23/9 đến 17h ngày 24/9, trên Hệ thống Quốc gia quản lý ca bệnh COVID-19 ghi nhận 8.537 ca nhiễm mới, trong đó 07 ca nhập cảnh và 8.530 ca ghi nhận trong nước (giảm 935 ca so với ngày trước đó) tại 34
+                                        tỉnh, thành phố (trong đó có 4.068 ca trong cộng đồng).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3 box-text-xem-them">
+                    <span class="link_xem-them">Xem thêm</span>
+                </div>
+
+                <div class="box-hot-line mt-5 ">
+                    <div class="item-hot-line d-flex justify-content-center">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <p>Đường dây nóng: 1900 9095</p>
+                    </div>
+                </div>
+
+
+                <div class="d-flex justify-content-center name-box-lh mt-4">
+                    Danh sách số điện thoại các bệnh viện
+                </div>
+                <div class="box_lienhe">
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Bạch Mai</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện ĐK Khánh Hòa</p>
+                        <p>0912 16 8887</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Đà Nẵng</p>
+                        <p>9093 58 3881</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Chợ Rẫy</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện E</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện K</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Bạch Mai</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Bạch Mai</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Bạch Mai</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Bạch Mai</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Bạch Mai</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Bạch Mai</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Bạch Mai</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Bạch Mai</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Bạch Mai</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Bạch Mai</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Bạch Mai</p>
+                        <p>09669 85 1616</p>
+                    </div>
+                    <div class="item-lienhe d-flex justify-content-between">
+                        <p>Bệnh viện Bạch Mai</p>
+                        <p>09669 85 1616</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!--end row 1-->
+
+
+
+
+        <!--row 4-->
+        <div class="box__text-title-new">
+            <h2 class="title-section ">Liên kết</h2>
+        </div>
+        <div class="d-flex justify-content-between ">
+            <div class="box-item ">
+                <img src="assets/img/lien-ket/lien-ket-1.jpg " alt=" ">
+            </div>
+            <div class="box-item ">
+                <img src="assets/img/lien-ket/lien-ket-2.jpg " alt=" ">
+            </div>
+            <div class="box-item ">
+                <img src="assets/img/lien-ket/lien-ket-3.png " alt=" ">
+            </div>
+            <div class="box-item ">
+                <img src="assets/img/lien-ket/lien-ket-4.png " alt=" ">
+            </div>
+            <div class="box-item ">
+                <img src="assets/img/lien-ket/lien-ket-5.png " alt=" ">
+            </div>
+        </div>
+        <!--end container row main-->
+    </div>
+    <!--end container chinh-->
+
+    <!--F O O T E R-->
+    <div class="footer box__header">
+        <div class="container ">
+            <div class="footer__flex d-flex ">
+                <a href="index.html" class="footer__logo box__logo-img ">
+                    <img src="assets/img/logo.png " alt=" " class="logo-img ">
+                </a>
+                <div class="footer__text ">
+                    <h5>Nhóm 4 - Internet và giao thức</h5>
+                    <p>Thành viên</p>
+                    <ul>
+                        <li><span>Vũ Đăng Đại - B18DCVT078</span></li>
+                        <li><span>Đặng Tiến Dũng - B18DCVT057</span></li>
+                        <li><span>Nguyễn Văn Đại - B18DCVT077</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--onTop-->
+    <div>
+        <img src="assets/img/up.png " alt=" " class="back-to-top ">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js "></script>
+    <script type="text/javascript " src="https://canvasjs.com/assets/script/canvasjs.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js "></script>
+    <script src="assets/js/main.js "></script>
+    <script src="assets/js/chart-index.js "></script>
+
+
+
+</body>
+
+</html>

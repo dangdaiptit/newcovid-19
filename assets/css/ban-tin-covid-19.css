@@ -1,0 +1,93 @@
+.box-name-page.d-flex i {
+    margin: auto 10px;
+    font-size: 25px;
+}
+
+.box-name-page.d-flex h4 {
+    margin-bottom: 0;
+}
+
+.box-name-page.d-flex {
+    color: #2E3192;
+}
+
+.box-name-page.d-flex a {
+    text-decoration: none;
+    color: #2e3192;
+}
+
+.box-img-ban-tin p {
+    color: #333333;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.box-item-ban-tin:nth-last-child(2) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.item-hot-line.d-flex i {
+    margin-top: auto;
+    color: #EE2930;
+    font-size: 30px;
+    margin-right: 18px;
+}
+
+.item-hot-line.d-flex p {
+    margin: auto 0;
+    color: #EE2930;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.item-hot-line {
+    padding: 10px 0;
+    background: #FEE9EA;
+    border-radius: 3px;
+}
+
+.name-box-lh {
+    padding: 13px 0;
+    background: #F0EFF4;
+    font-weight: 600;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 17px;
+}
+
+.item-lienhe p {
+    margin: auto 10px;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.box_lienhe {
+    overflow-y: scroll;
+    height: 370px;
+    border: solid 1px #F0EFF4;
+}
+
+
+/* thanh tien trinh scroll*/
+
+.box_lienhe::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Thanh tiến trình */
+
+.box_lienhe::-webkit-scrollbar-thumb {
+    background-color: #F0EFF4;
+}
+
+
+/* !Trang ban tin covid*/
+
+p.time-posts {
+    font-style: italic;
+    font-size: 13px;
+    color: #515151;
+}
